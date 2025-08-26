@@ -11,7 +11,7 @@ const app = express();
 
 secureMern(app);
 
-app.use("/uploads", express.static(path.join(__dirname, "uploads")));
+// app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
 // app.use('/admin', admincontrolroute)
 
